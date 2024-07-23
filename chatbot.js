@@ -9,8 +9,8 @@ style.textContent = `
     margin-left: auto;
     margin-right: 26px;
     position: fixed;
-    top: 25px;
-    right: 0;
+    top: 45px;
+    right: 5px;
     z-index: 200;
   }
 
@@ -39,7 +39,7 @@ style.textContent = `
     justify-content: space-between;
     align-items: center;
     padding: 6px;
-    background-color: #007bff;
+    background-color: #662c83;
     color: #fff;
   }
 
@@ -260,7 +260,7 @@ document.body.appendChild(chatbotWrapper);
 // Add JavaScript functionality
 let chatData = [{ "answer": "Hello! How can I help you today?" }];
 let query = "";
-let isCollapsed = false;
+let isCollapsed = true;
 let isTyping = false;
 
 const chatBodyRef = document.getElementById('chatBody');
