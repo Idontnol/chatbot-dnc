@@ -347,5 +347,6 @@ const setIsCollapsed = (state) => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  updateChat();
+  setIsCollapsed(true); 
+  updateChat();         
 });
