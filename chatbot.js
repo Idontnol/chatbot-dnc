@@ -9,7 +9,7 @@ style.textContent = `
     margin-left: auto;
     margin-right: 26px;
     position: fixed;
-    top: 30px;
+    top: 25px;
     right: 0;
     z-index: 200;
   }
