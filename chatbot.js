@@ -276,7 +276,7 @@ chatbotWrapper.innerHTML = `
     </div>
     <div class="chatbot-input">
       <input type="text" id="chatInput" placeholder="Type your question here..." class="chat-input" onkeydown="handleKeyDown(event)" />
-      <span style="cursor: pointer;" onclick="sendQuery()">&#9658;</span>
+      <span style="cursor: pointer;" onclick="sendQuery()">&#9658;</span>&nbsp;
     </div>
   </div>
 `;
