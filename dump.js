@@ -231,7 +231,8 @@ style.textContent = `
       transform: scale(0);
     }
   }
-  .chatbot-container {
+  
+.chatbot-container {
   width: 370px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -374,8 +375,8 @@ const setIsCollapsed = (state) => {
 
 document.addEventListener('DOMContentLoaded', () => {
   setIsCollapsed(true); 
-  updateChat();  
+  updateChat();     
   setTimeout(() => {
     document.querySelector('.chatbot-container').classList.add('with-transition');
-}, 0);       
+}, 0);
 });
