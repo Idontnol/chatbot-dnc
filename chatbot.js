@@ -240,7 +240,7 @@ chatbotWrapper.className = 'chatbot-wrapper';
 chatbotWrapper.innerHTML = `
   <div class="chatbot-container">
     <div class="chatbot-header">
-      <img src="petfolk.jpeg" alt="profile-icon" class="profile-icon" style="cursor: pointer;" onclick="setIsCollapsed(false)" />
+      <img src="https://res.cloudinary.com/dswjg0rjx/image/upload/v1721734159/gsol4kkrmwk8e5sntrm6.jpg" alt="profile-icon" class="profile-icon" style="cursor: pointer;" onclick="setIsCollapsed(false)" />
       <div class="header-icons" id="header-icons">
         <span style="cursor: pointer;">&#9776;</span>
         <span style="cursor: pointer;" onclick="setIsCollapsed(true)">&#10006;</span>
